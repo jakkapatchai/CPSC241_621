@@ -11,4 +11,4 @@ CentOS คือ ระบบปฏิบัติการ Linux ที่ไ�
 
 ตัวอย่างหน้า Desktop ระบบปฏิบัติการ Linux CentOS
 
-![Image](screenshot-centos.png)b.com/categories/github-pages-basics/)
+![Image](screenshot-centos.png)
