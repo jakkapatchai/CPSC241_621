@@ -1,0 +1,20 @@
+<html><body>
+<pre style="font-family:courier;">
+<script>
+var totalRow = 4;
+var com = "";
+for (row=1; row <= totalRow; row++) 
+{
+	document.write(row + "" + (row + 4));
+	com += row + "" + (row + 4);
+	for (col=1; col <= (row+4); col++) 
+	{ 
+		document.write("*");
+		com += "*";
+	}
+	document.write("\n");
+	com += "\n";
+}
+console.log(com)
+</script>
+</pre></font></body></html>

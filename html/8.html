@@ -1,0 +1,29 @@
+<html><body>
+<pre style="font-family:courier;">
+<script>
+var totalRow = 7;
+var com = "";
+ for (row=1; row <= totalRow; row++) 
+{	
+	for (col=2; col <= row; col++) 
+	{ 
+		document.write(" "); 
+		com += " ";
+	}
+      	for (col=row; col <= (row+2); col++) 
+	{ 
+		document.write(col); 
+		com += col;
+	}
+      	for (col=1; col <= row+1; col++) 
+	{ 
+		document.write("*"); 
+		com += "*";
+	}
+      	document.write();
+	document.write("\n");
+	com +="\n";
+}
+console.log(com)
+</script>
+</pre></font></body></html>

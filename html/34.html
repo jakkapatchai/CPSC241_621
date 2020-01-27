@@ -1,0 +1,56 @@
+<html><body>
+<pre style="font-family:courier;">
+<script>
+var totalRow = 3;
+var com = "";
+for (row=1; row <= totalRow; row++) 
+{
+	for (col=4; col>=row; col--)
+	{
+		document.write(" ");
+		com += " ";
+	}
+	document.write("*");	
+	com += "*";
+	for (col=1; col<=row; col++)
+	{
+		document.write(row);
+		com += row;
+	}
+	for (col=1; col<=row-1; col++)
+	{
+		document.write(row);
+		com += row;
+	}
+	document.write("*");	
+	com += "*";
+	document.write("\n");
+	com +="\n";
+}
+for(row=totalRow-1; row>=1; row--)
+{
+	for (col=4; col>=row; col--)
+	{
+		document.write(" ");
+		com += " ";
+	}	
+	document.write("*");
+	com += "*";
+	for (col=1; col<=row; col++)
+	{
+		document.write(row);
+		com += row;
+	}
+	for (col=1; col<=row-1; col++)
+	{
+		document.write(row);
+		com += row;
+	}	
+	document.write("*");
+	com += "*";
+	document.write("\n");
+	com +="\n";
+}
+console.log(com)
+</script>
+</pre></font></body></html>

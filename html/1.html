@@ -1,0 +1,27 @@
+<html><body>
+<pre style="font-family:courier;">
+<script>
+var com = 4;
+var o = "";
+for (row=1; row <= com; row++) 
+{
+      	for (col=2; col <= row; col++) 
+	{ 
+		document.write(" ");
+		o += " ";
+	}
+      	document.write(row + "" + row);
+	o +=row + "" + row;
+      	for (col=com; col >= (row + 1); col--) 
+	{ 
+		document.write("**");
+		o += "**";
+	}
+      	document.write( row + "" + row);
+	o +=row + "" + row;
+	document.write("\n");
+	o += "\n";
+}
+console.log(o);
+</script>
+</pre></font></body></html>
